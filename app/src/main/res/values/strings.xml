@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">New Project</string>
+    <string name="terms_conditions_text">
+        <![CDATA[
+        Terms & Conditions.
+
+
+        1 Orders are non-refundable once prepared.
+        2 Prices and availability are subject to change.
+        3 Customers must provide accurate contact and delivery details.
+        4 We reserve the right to cancel or refuse orders at our discretion.
+        5 Users must not engage in fraudulent activities on the platform.
+        6 We collect necessary data for order processing and customer service.
+        7 These terms may be updated at any time, with notice provided in-app.
+        ]]>
+    </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

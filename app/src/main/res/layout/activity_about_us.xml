@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F7EDDE"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.activity.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/textViewAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About Us"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAboutUsDescription"
+        android:layout_width="405dp"
+        android:layout_height="660dp"
+        android:lineSpacingExtra="3dp"
+        android:padding="18dp"
+        android:scrollbars="vertical"
+        android:text="The Hungry Heroes is a superhero-themed restaurant located near PepsiCola, Kathmandu. It offers a variety of cuisines, including Indian and Nepali dishes. Amenities include dine-in, delivery, Wi-Fi,"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
