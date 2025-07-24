@@ -27,7 +27,8 @@
         android:lineSpacingExtra="3dp"
         android:padding="18dp"
         android:scrollbars="vertical"
-        android:text="The Hungry Heroes is a superhero-themed restaurant located near PepsiCola, Kathmandu. It offers a variety of cuisines, including Indian and Nepali dishes. Amenities include dine-in, delivery, Wi-Fi,"
+        android:text="Mitho Saanjh (मिठो साँझ) is a Nepali restaurant serving authentic and flavorful traditional dishes. Our name mean 'Delicious Evening', reflecting the warm, homely meals we offer. We bring the taste of Nepal to your table of Nepal to your table with recipes rooted in culture and tradition. From momo to dal bhat, every dish is made with love and freah ingredients. Visit us a kalanki, opposite of the Makalu Petrol Pump, for true Nepali dining experience. "
+        android:textAlignment="center"
         android:textSize="16sp" />
 
 
