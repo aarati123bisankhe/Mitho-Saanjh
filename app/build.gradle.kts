@@ -8,11 +8,11 @@ android {
     buildFeatures{
         viewBinding = true
     }
-    namespace = "com.example.newproject"
+    namespace = "com.example.mithosaanjh"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.newproject"
+        applicationId = "com.example.mithosaanjh"
         minSdk = 27
         targetSdk = 34
         versionCode = 1

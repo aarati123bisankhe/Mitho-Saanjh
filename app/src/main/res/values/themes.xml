@@ -1,9 +1,20 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.MithoSaanjh" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Base.Theme.MithoSaanjh." parent="Base.Theme.MithoSaanjh" />-->
+<!--</resources>-->
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.NewProject" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.MithoSaanjh" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.NewProject" parent="Base.Theme.NewProject" />
+    <!-- You can define your app theme as an alias to the base theme -->
+    <style name="Theme.MithoSaanjh" parent="Base.Theme.MithoSaanjh" />
 </resources>
