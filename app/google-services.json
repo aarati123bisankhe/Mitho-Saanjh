@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "268071842589",
-    "project_id": "androidapplicationusingkotlin",
-    "storage_bucket": "androidapplicationusingkotlin.firebasestorage.app"
+    "project_number": "235715036834",
+    "project_id": "mitho-saanjh",
+    "storage_bucket": "mitho-saanjh.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:268071842589:android:7de3e9cf6621b794bb27f4",
+        "mobilesdk_app_id": "1:235715036834:android:4ef8120654e11433e1b9fb",
         "android_client_info": {
           "package_name": "com.example.mithosaanjh"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBJNmoxaOhl3wxHtzSK_RlcarhxBSqTXKQ"
+          "current_key": "AIzaSyDGqOcmt0W8XkMox_8y44Vfen8LnzFM9sc"
         }
       ],
       "services": {

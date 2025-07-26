@@ -20,9 +20,9 @@ import java.io.InputStream
 import java.util.concurrent.Executors
 
 class UserRepositoryImpl: UserRepository {
-    var  auth: FirebaseAuth = FirebaseAuth.getInstance()
+    private var  auth: FirebaseAuth = FirebaseAuth.getInstance()
     val database : FirebaseDatabase = FirebaseDatabase.getInstance()
-    val reference : DatabaseReference = database.reference.child("users")
+    private val reference : DatabaseReference = database.reference.child("users")
     override fun login(email: String, password: String, callback: (Boolean, String) -> Unit) {
         auth.signInWithEmailAndPassword(email, password).addOnCompleteListener{
             if(it.isSuccessful){
@@ -41,13 +41,17 @@ class UserRepositoryImpl: UserRepository {
     ) {
         auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener{
             if (it.isSuccessful){
+
                 callback(true, "Registration successful",auth.currentUser?.uid.toString())
             }else{
                 callback(false, it.exception?.message.toString(),"" )
             }
 
         }
+
     }
+
+
 
     override fun forgetPassword(email: String, callback: (Boolean, String) -> Unit) {
         auth.sendPasswordResetEmail(email).addOnCompleteListener{
@@ -71,6 +75,8 @@ class UserRepositoryImpl: UserRepository {
                 callback(false, it.exception?.message.toString())
             }
         }
+
+
     }
 
     override fun getCurrentUser(): FirebaseUser? {
@@ -84,7 +90,7 @@ class UserRepositoryImpl: UserRepository {
         reference.child(userId).addValueEventListener(object:ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()){
-                    var model = snapshot.getValue(UserModel::class.java)
+                    val model = snapshot.getValue(UserModel::class.java)
                     callback(model,true,"Details fetched successfully")
                 }
             }
